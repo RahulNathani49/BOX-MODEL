@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.first {
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+
+}
+
+.box1 {
+    position: absolute;
+    right: 0;
+    background-color: red;
+    height: 10%;
+    width: 5%;
+}
+
+.box2 {
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    height: 10%;
+    width: 5%;
+
+}
+
+.box3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    height: 10%;
+    width: 5%;
+ 
+}
+
+.box4 {
+    position: absolute;
+    left: 0;
+    background-color: blue;
+    height: 10%;
+    width: 5%;
+   
+}
+
+.second,
+.third,.fourth,.five,.six,.seven,.eight,.a,.b,.c,.d,.e,.f,.g {
+    height: calc(100% - 15%);
+    width: calc(100% - 15%);
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+.box5{
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+
+}
+.home2{
+    
+}
